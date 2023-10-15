@@ -2,7 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {Navbar} from './components/navbar'
 import './components/navbar.css'
-import {BookCard} from './pages/shop'
+import {CardsContainer} from './pages/shop'
 import { Cart } from './pages/cart';
 import { ShopContextProvider } from './context/shop-context';
 
@@ -13,7 +13,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" element={<BookCard />} />
+          <Route path="/" element={<CardsContainer />} />
           <Route path="/cart" element={<Cart />}/>
         </Routes>
       </Router>

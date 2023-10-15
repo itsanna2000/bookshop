@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
-import {books} from '../mock-api'
-import {ShopContext, ShopContextValue} from '../context/shop-context'
+import {ShopContext} from '../context/shop-context'
 
 
 export const Product = (props) => {
@@ -12,7 +11,7 @@ export const Product = (props) => {
     return (
         <div>
             <div className="card" key={id}>
-                <img src={img} />
+                <img src={img} alt="book cover"/>
                 <b>{title}</b>
                 <p>{year} - {edition}</p>
                 <p>{publishing_house}</p>

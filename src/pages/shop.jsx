@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 import {books} from '../mock-api'
 import {Product} from '../components/product'
 import '../components/product.css'
 
-export const BookCard = () => {
+export const CardsContainer = () => {
 
     return (
         <div>

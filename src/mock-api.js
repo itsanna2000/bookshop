@@ -86,7 +86,7 @@ export const books = [
         year: 1999,
         edition: "US",
         publishing_house: "Scholastic Inc",
-        img: "https://media.harrypotterfanzone.com/prisoner-of-azkaban-us-childrens-edition.jpg",
+        img: "https://images.squarespace-cdn.com/content/v1/5c71c7d8aadd342945360ba1/1586769532781-5RSXZY7KRV7PXENRTDYK/Prisoner+of+Azkaban+Original+Children+Edition+HC.jpg?format=750w",
         price: 15
     },
     {
