@@ -1,0 +1,73 @@
+body {
+  background-color: #FAF3E3;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.cards-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.items-count {
+  margin-top: 5px;
+}
+
+.quantity {
+  width: 30px;
+  height: 20px;
+  outline: none;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* HIDE ARROWS FROM INPUT ON Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* HIDE ARROWS FROM INPUT ON Firefox */
+  input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.quantity-btn {
+  background-color: #FAF3E3;
+  border: solid 1px #1c1c1c;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 2px;
+}
+
+.quantity-btn:hover {
+  cursor: pointer;
+  background-color: #1c1c1c;
+  color: #FAF3E3;
+}
+
+h2{
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.total-price {
+  width: 250px;
+  height: 80px;
+  border: 1px solid #1c1c1c;
+  margin: auto;
+  text-align: center;
+  line-height: 3px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+p {
+  text-align: center;
+}

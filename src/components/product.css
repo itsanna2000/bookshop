@@ -1,0 +1,44 @@
+img {
+    width: 260px;
+    height: 360px;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 8px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.05); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.05);
+  }
+  
+  .card {
+    width: 450px;
+    height: 525px;
+    margin: auto;
+    text-align: center;
+    line-height: 3px;
+    margin-top: 20px;
+    border: 1px solid #FAF3E3;
+  }
+  
+  .card:hover {
+    border: 1px solid #1c1c1c;
+    transition: border 1s;
+    transform: scale(1.05);
+  }
+  
+  img:hover {
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.13);
+  }
+  
+  .cart-btn {
+    background-color: #FAF3E3;
+    border: 1px solid #1c1c1c;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .cart-btn:hover {
+    cursor: pointer;
+    background-color: #1c1c1c;
+    color:#FAF3E3
+  }
