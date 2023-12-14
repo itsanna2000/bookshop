@@ -11,7 +11,7 @@ export const CardsContainer = () => {
             <div className="cards-container">
             
                 {books.map((product) => (
-                    <Product data={product} key={product.id} />
+                   return <Product data={product} key={product.id} />
                 ))}
             
             </div>
